@@ -1,6 +1,7 @@
 {
   # A few classics.
   packages.nixpkgs-flox.coreutils = {};
+  packages.nixpkgs-flox.hello = {};
   packages.nixpkgs-flox.findutils = {};
   packages.nixpkgs-flox.diffutils = {};
   packages.nixpkgs-flox.gnused    = {};

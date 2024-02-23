@@ -1,0 +1,2419 @@
+{
+  "floxEnvs": {
+    "x86_64-linux": {
+      "default": {
+        "inline": {
+          "packages": {
+            "x86_64-linux": {
+              "cc": {
+                "build": [
+                  {
+                    "hasBin": false,
+                    "hasMan": false
+                  }
+                ],
+                "element": {
+                  "active": true,
+                  "attrPath": [
+                    "floxEnvs",
+                    "x86_64-linux",
+                    "default",
+                    "inline",
+                    "packages",
+                    "x86_64-linux",
+                    "cc"
+                  ],
+                  "originalUrl": ".",
+                  "storePaths": [
+                    "/nix/store/8phn3d072kcfvwvf6p5ys8pk8yxh236x-gcc-wrapper-12.3.0",
+                    "/nix/store/6yvhjkqhybpn6y5sg77gvxybra357vgm-gcc-wrapper-12.3.0-man"
+                  ],
+                  "url": ""
+                },
+                "eval": {
+                  "attrPath": [
+                    "floxEnvs",
+                    "x86_64-linux",
+                    "default",
+                    "inline",
+                    "packages",
+                    "x86_64-linux",
+                    "cc"
+                  ],
+                  "drvPath": "/nix/store/hks9mjgnq1a0y04zniikmmwknp9am4m8-gcc-wrapper-12.3.0.drv",
+                  "meta": {
+                    "available": true,
+                    "broken": false,
+                    "description": "GNU Compiler Collection, version 12.3.0 (wrapper script)",
+                    "homepage": "https://gcc.gnu.org/",
+                    "insecure": false,
+                    "license": {
+                      "deprecated": false,
+                      "free": true,
+                      "fullName": "GNU General Public License v3.0 or later",
+                      "redistributable": true,
+                      "shortName": "gpl3Plus",
+                      "spdxId": "GPL-3.0-or-later",
+                      "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+                    },
+                    "longDescription": "The GNU Compiler Collection includes compiler front ends for C, C++,\nObjective-C, Fortran, OpenMP for C/C++/Fortran, and Ada, as well as\nlibraries for these languages (libstdc++, libgomp,...).\n\nGCC development is a part of the GNU Project, aiming to improve the\ncompiler used in the GNU system including the GNU/Linux variant.\n",
+                    "mainProgram": "gcc",
+                    "maintainers": [
+                      {
+                        "email": "nix@hilhorst.be",
+                        "github": "Synthetica9",
+                        "githubId": 7075751,
+                        "name": "Patrick Hilhorst"
+                      },
+                      {
+                        "email": "v@cunat.cz",
+                        "github": "vcunat",
+                        "githubId": 1785925,
+                        "keys": [
+                          {
+                            "fingerprint": "B600 6460 B60A 80E7 8206  2449 E747 DF1F 9575 A3AA"
+                          }
+                        ],
+                        "matrix": "@vcunat:matrix.org",
+                        "name": "Vladimír Čunát"
+                      },
+                      {
+                        "email": "John.Ericson@Obsidian.Systems",
+                        "github": "Ericson2314",
+                        "githubId": 1055245,
+                        "matrix": "@ericson2314:matrix.org",
+                        "name": "John Ericson"
+                      }
+                    ],
+                    "name": "gcc-12.3.0",
+                    "outputsToInstall": [
+                      "out",
+                      "man"
+                    ],
+                    "platforms": [
+                      "i686-cygwin",
+                      "x86_64-cygwin",
+                      "x86_64-darwin",
+                      "i686-darwin",
+                      "aarch64-darwin",
+                      "armv7a-darwin",
+                      "i686-freebsd13",
+                      "x86_64-freebsd13",
+                      "x86_64-solaris",
+                      "aarch64-linux",
+                      "armv5tel-linux",
+                      "armv6l-linux",
+                      "armv7a-linux",
+                      "armv7l-linux",
+                      "i686-linux",
+                      "loongarch64-linux",
+                      "m68k-linux",
+                      "microblaze-linux",
+                      "microblazeel-linux",
+                      "mips-linux",
+                      "mips64-linux",
+                      "mips64el-linux",
+                      "mipsel-linux",
+                      "powerpc64-linux",
+                      "powerpc64le-linux",
+                      "riscv32-linux",
+                      "riscv64-linux",
+                      "s390-linux",
+                      "s390x-linux",
+                      "x86_64-linux",
+                      "aarch64-netbsd",
+                      "armv6l-netbsd",
+                      "armv7a-netbsd",
+                      "armv7l-netbsd",
+                      "i686-netbsd",
+                      "m68k-netbsd",
+                      "mipsel-netbsd",
+                      "powerpc-netbsd",
+                      "riscv32-netbsd",
+                      "riscv64-netbsd",
+                      "x86_64-netbsd",
+                      "i686-openbsd",
+                      "x86_64-openbsd",
+                      "x86_64-redox"
+                    ],
+                    "position": "/nix/store/3wla32r0vf8370p5y1zw1hk06914myvq-source/pkgs/build-support/cc-wrapper/default.nix:616",
+                    "priority": 10,
+                    "unfree": false,
+                    "unsupported": false
+                  },
+                  "name": "gcc-wrapper-12.3.0",
+                  "namespace": [],
+                  "outputs": {
+                    "info": "/nix/store/7dfaj0cbrp8h2hhbbqrnnciavvi3i4m3-gcc-wrapper-12.3.0-info",
+                    "man": "/nix/store/6yvhjkqhybpn6y5sg77gvxybra357vgm-gcc-wrapper-12.3.0-man",
+                    "out": "/nix/store/8phn3d072kcfvwvf6p5ys8pk8yxh236x-gcc-wrapper-12.3.0"
+                  },
+                  "pname": "gcc-wrapper",
+                  "system": "x86_64-linux",
+                  "version": "12.3.0"
+                },
+                "version": 1
+              },
+              "npm": {
+                "build": [
+                  {
+                    "hasBin": false,
+                    "hasMan": false
+                  }
+                ],
+                "element": {
+                  "active": true,
+                  "attrPath": [
+                    "floxEnvs",
+                    "x86_64-linux",
+                    "default",
+                    "inline",
+                    "packages",
+                    "x86_64-linux",
+                    "npm"
+                  ],
+                  "originalUrl": ".",
+                  "storePaths": [
+                    "/nix/store/xvsd6ypi9jf0dk7jy703pmk4139aj29r-npm-9.7.1"
+                  ],
+                  "url": ""
+                },
+                "eval": {
+                  "attrPath": [
+                    "floxEnvs",
+                    "x86_64-linux",
+                    "default",
+                    "inline",
+                    "packages",
+                    "x86_64-linux",
+                    "npm"
+                  ],
+                  "drvPath": "/nix/store/c971xkc63iza3nvxp7dxpb1439r7y1wy-npm-9.7.1.drv",
+                  "meta": {
+                    "available": true,
+                    "broken": false,
+                    "description": "a package manager for JavaScript",
+                    "homepage": "https://docs.npmjs.com/",
+                    "insecure": false,
+                    "license": "Artistic-2.0",
+                    "name": "npm-9.7.1",
+                    "outputsToInstall": [
+                      "out"
+                    ],
+                    "platforms": [
+                      "aarch64-linux",
+                      "armv5tel-linux",
+                      "armv6l-linux",
+                      "armv7a-linux",
+                      "armv7l-linux",
+                      "i686-linux",
+                      "loongarch64-linux",
+                      "m68k-linux",
+                      "microblaze-linux",
+                      "microblazeel-linux",
+                      "mips-linux",
+                      "mips64-linux",
+                      "mips64el-linux",
+                      "mipsel-linux",
+                      "powerpc64-linux",
+                      "powerpc64le-linux",
+                      "riscv32-linux",
+                      "riscv64-linux",
+                      "s390-linux",
+                      "s390x-linux",
+                      "x86_64-linux",
+                      "x86_64-darwin",
+                      "i686-darwin",
+                      "aarch64-darwin",
+                      "armv7a-darwin"
+                    ],
+                    "position": "/nix/store/3wla32r0vf8370p5y1zw1hk06914myvq-source/pkgs/development/node-packages/node-packages.nix:123570",
+                    "unfree": false,
+                    "unsupported": false
+                  },
+                  "name": "npm-9.7.1",
+                  "namespace": [],
+                  "outputs": {
+                    "out": "/nix/store/xvsd6ypi9jf0dk7jy703pmk4139aj29r-npm-9.7.1"
+                  },
+                  "pname": "npm",
+                  "system": "x86_64-linux",
+                  "version": "9.7.1"
+                },
+                "version": 1
+              },
+              "pip": {
+                "build": [
+                  {
+                    "hasBin": false,
+                    "hasMan": false
+                  }
+                ],
+                "element": {
+                  "active": true,
+                  "attrPath": [
+                    "floxEnvs",
+                    "x86_64-linux",
+                    "default",
+                    "inline",
+                    "packages",
+                    "x86_64-linux",
+                    "pip"
+                  ],
+                  "originalUrl": ".",
+                  "storePaths": [
+                    "/nix/store/53rhfzf518ws7pxd35yd3rkr8rb7cvcx-python3.10-pip-23.0.1"
+                  ],
+                  "url": ""
+                },
+                "eval": {
+                  "attrPath": [
+                    "floxEnvs",
+                    "x86_64-linux",
+                    "default",
+                    "inline",
+                    "packages",
+                    "x86_64-linux",
+                    "pip"
+                  ],
+                  "drvPath": "/nix/store/8vc8r283gfpxqr9i9y0vnxwgh4zq2pax-python3.10-pip-23.0.1.drv",
+                  "meta": {
+                    "available": true,
+                    "broken": false,
+                    "changelog": "https://pip.pypa.io/en/stable/news/#v23-0-1",
+                    "description": "The PyPA recommended tool for installing Python packages",
+                    "homepage": "https://pip.pypa.io/",
+                    "insecure": false,
+                    "isBuildPythonPackage": [
+                      "aarch64-linux",
+                      "armv5tel-linux",
+                      "armv6l-linux",
+                      "armv7a-linux",
+                      "armv7l-linux",
+                      "i686-linux",
+                      "loongarch64-linux",
+                      "m68k-linux",
+                      "microblaze-linux",
+                      "microblazeel-linux",
+                      "mips-linux",
+                      "mips64-linux",
+                      "mips64el-linux",
+                      "mipsel-linux",
+                      "powerpc64-linux",
+                      "powerpc64le-linux",
+                      "riscv32-linux",
+                      "riscv64-linux",
+                      "s390-linux",
+                      "s390x-linux",
+                      "x86_64-linux",
+                      "x86_64-darwin",
+                      "i686-darwin",
+                      "aarch64-darwin",
+                      "armv7a-darwin"
+                    ],
+                    "license": [
+                      {
+                        "deprecated": false,
+                        "free": true,
+                        "fullName": "MIT License",
+                        "redistributable": true,
+                        "shortName": "mit",
+                        "spdxId": "MIT",
+                        "url": "https://spdx.org/licenses/MIT.html"
+                      }
+                    ],
+                    "name": "python3.10-pip-23.0.1",
+                    "outputsToInstall": [
+                      "out"
+                    ],
+                    "platforms": [
+                      "aarch64-linux",
+                      "armv5tel-linux",
+                      "armv6l-linux",
+                      "armv7a-linux",
+                      "armv7l-linux",
+                      "i686-linux",
+                      "loongarch64-linux",
+                      "m68k-linux",
+                      "microblaze-linux",
+                      "microblazeel-linux",
+                      "mips-linux",
+                      "mips64-linux",
+                      "mips64el-linux",
+                      "mipsel-linux",
+                      "powerpc64-linux",
+                      "powerpc64le-linux",
+                      "riscv32-linux",
+                      "riscv64-linux",
+                      "s390-linux",
+                      "s390x-linux",
+                      "x86_64-linux",
+                      "x86_64-darwin",
+                      "i686-darwin",
+                      "aarch64-darwin",
+                      "armv7a-darwin"
+                    ],
+                    "position": "/nix/store/3wla32r0vf8370p5y1zw1hk06914myvq-source/pkgs/development/python-modules/pip/default.nix:47",
+                    "priority": 10,
+                    "unfree": false,
+                    "unsupported": false
+                  },
+                  "name": "python3.10-pip-23.0.1",
+                  "namespace": [],
+                  "outputs": {
+                    "out": "/nix/store/53rhfzf518ws7pxd35yd3rkr8rb7cvcx-python3.10-pip-23.0.1"
+                  },
+                  "pname": "python3.10-pip",
+                  "system": "x86_64-linux",
+                  "version": "23.0.1"
+                },
+                "version": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "github:flox/etc-profiles": {
+    "x86_64-linux": {
+      "etc-profiles": {
+        "build": [
+          {
+            "hasBin": false,
+            "hasMan": false
+          }
+        ],
+        "element": {
+          "active": true,
+          "attrPath": [
+            "packages",
+            "x86_64-linux",
+            "etc-profiles"
+          ],
+          "originalUrl": "github:flox/etc-profiles",
+          "storePaths": [
+            "/nix/store/rwrsmgvpqggh848h0w2k6a5r52k5kjw5-etc-profiles-0.1.0-common_paths",
+            "/nix/store/wb9xk9zfqdvwwwh2bdszmxs3fiizhl18-etc-profiles-0.1.0-python3",
+            "/nix/store/2rq7kj0kb659h98li0a24rq574kjyacq-etc-profiles-0.1.0-node",
+            "/nix/store/s25c5fgid8s3s83gk427b5ahddjlc8v3-etc-profiles-0.1.0"
+          ],
+          "url": "github:flox/etc-profiles/363488fbfe42825cf2efb2b4ca9d633a069d7404"
+        },
+        "eval": {
+          "attrPath": [
+            "packages",
+            "x86_64-linux",
+            "etc-profiles"
+          ],
+          "drvPath": "/nix/store/8f0hliwlwxkz32c5dddynp401pmal6v9-etc-profiles-0.1.0.drv",
+          "meta": {
+            "available": true,
+            "broken": false,
+            "description": "Installable /etc/profile.d activation scripts for use with flox\n",
+            "homepage": "https://github.com/flox/etc-profiles",
+            "license": {
+              "deprecated": false,
+              "free": true,
+              "fullName": "MIT License",
+              "redistributable": true,
+              "shortName": "mit",
+              "spdxId": "MIT",
+              "url": "https://spdx.org/licenses/MIT.html"
+            },
+            "longDescription": "An `<env>/etc/profile' script to source `<env>/etc/profile.d/*.sh`\n\nUsers can define and install scripts in `<env>/etc/profile.d' as\n\"custom packages\"/installables to share common setup processes\nacross environments.\n\nRecommended usage:\n  # flox.nix\n  {\n    packages.nixpkgs-flox.sqlite = {\n      meta.outputsToInstall = [\"bin\" \"out\" \"dev\"];\n    };\n\n    # Provides developer environment hooks for use with python3.\n    packages.flox.etc-profiles = {\n      # Optionally, specify language packages to install.\n      # Please note that all/most language packs depend on including\n      # the \"common_paths\" output, and ALL depend on \"out\".\n      meta.outputsToInstall = [\"out\" \"common_paths\" \"python3\"];\n    };\n\n    shell.hook = ''\n      [[ -r \"$FLOX_ENV/etc/profile\" ]] && . \"$FLOX_ENV/etc/profile\";\n      pkg-config --list-all >&2;\n    ''\n  }\n",
+            "name": "etc-profiles-0.1.0",
+            "outputsToInstall": [
+              "common_paths",
+              "python3",
+              "node",
+              "out"
+            ],
+            "platforms": [
+              "x86_64-linux",
+              "aarch64-linux",
+              "i686-linux",
+              "x86_64-darwin",
+              "aarch64-darwin"
+            ],
+            "unfree": false,
+            "unsupported": false
+          },
+          "name": "etc-profiles-0.1.0",
+          "namespace": [],
+          "outputs": {
+            "common_paths": "/nix/store/rwrsmgvpqggh848h0w2k6a5r52k5kjw5-etc-profiles-0.1.0-common_paths",
+            "node": "/nix/store/2rq7kj0kb659h98li0a24rq574kjyacq-etc-profiles-0.1.0-node",
+            "out": "/nix/store/s25c5fgid8s3s83gk427b5ahddjlc8v3-etc-profiles-0.1.0",
+            "python3": "/nix/store/wb9xk9zfqdvwwwh2bdszmxs3fiizhl18-etc-profiles-0.1.0-python3"
+          },
+          "pname": "etc-profiles",
+          "system": "x86_64-linux",
+          "version": "0.1.0"
+        },
+        "version": 1
+      }
+    }
+  },
+  "nixpkgs-flox": {
+    "x86_64-linux": {
+      "stable": {
+        "autoconf": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/5rzyxax1wy355r22l88wxak9wl0r54r2-autoconf-2.71-doc",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/iw4wi62kv0skc3dsgdmxbkpn45p7xk0b-autoconf-2.71",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "x86_64-linux",
+                "autoconf"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/iw4wi62kv0skc3dsgdmxbkpn45p7xk0b-autoconf-2.71"
+              ],
+              "url": "github:flox/nixpkgs/5f64a12a728902226210bf01d25ec6cbb9d9265b"
+            },
+            "eval": {
+              "meta": {
+                "description": "Part of the GNU Build System",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/5acdh8xyry0kdvp6xla2hw7wf3zkphkl-source/pkgs/development/tools/misc/autoconf/default.nix:53",
+                "unfree": false
+              },
+              "name": "autoconf-2.71",
+              "outputs": {
+                "doc": "/nix/store/5rzyxax1wy355r22l88wxak9wl0r54r2-autoconf-2.71-doc",
+                "out": "/nix/store/iw4wi62kv0skc3dsgdmxbkpn45p7xk0b-autoconf-2.71"
+              },
+              "pname": "autoconf",
+              "system": "x86_64-linux",
+              "version": "2.71"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "x86_64-linux",
+                "stable",
+                "autoconf"
+              ],
+              "originalUrl": "nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/iw4wi62kv0skc3dsgdmxbkpn45p7xk0b-autoconf-2.71"
+              ],
+              "url": "flake:nixpkgs-flox/5171477b00b68e3896a4963d16df4386ba9457c3"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1703438236,
+                "revCount": 562833
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "automake": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/bkqywjp1i0dcgq1rrrkrc8j2zjh7cf8a-automake-1.16.5",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "x86_64-linux",
+                "automake"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/bkqywjp1i0dcgq1rrrkrc8j2zjh7cf8a-automake-1.16.5"
+              ],
+              "url": "github:flox/nixpkgs/5f64a12a728902226210bf01d25ec6cbb9d9265b"
+            },
+            "eval": {
+              "meta": {
+                "description": "GNU standard-compliant makefile generator",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/5acdh8xyry0kdvp6xla2hw7wf3zkphkl-source/pkgs/development/tools/misc/automake/automake-1.16.x.nix:31",
+                "unfree": false
+              },
+              "name": "automake-1.16.5",
+              "outputs": {
+                "out": "/nix/store/bkqywjp1i0dcgq1rrrkrc8j2zjh7cf8a-automake-1.16.5"
+              },
+              "pname": "automake",
+              "system": "x86_64-linux",
+              "version": "1.16.5"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "x86_64-linux",
+                "stable",
+                "automake"
+              ],
+              "originalUrl": "nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/bkqywjp1i0dcgq1rrrkrc8j2zjh7cf8a-automake-1.16.5"
+              ],
+              "url": "flake:nixpkgs-flox/5171477b00b68e3896a4963d16df4386ba9457c3"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1703438236,
+                "revCount": 562833
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "bashInteractive": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/2lm0cszzrxqf18p71rsizkhw9xn80d2q-bash-interactive-5.2-p21-debug",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/45k4zjz92iyqwg6kg37m66sbv49nsy7v-bash-interactive-5.2-p21-dev",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/wjizx94ksgs39haljg9pn2yinr5ic9az-bash-interactive-5.2-p21-doc",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/1bv944c4z7f3d62j462i184aj5lv9nqn-bash-interactive-5.2-p21-info",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/4j5c2hybfirv3d1aybl2g4c8c9a9nkhi-bash-interactive-5.2-p21-man",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/l6l2q7c6xvlb44rxbkpajssz6cma2hwd-bash-interactive-5.2-p21",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "x86_64-linux",
+                "bashInteractive"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/l6l2q7c6xvlb44rxbkpajssz6cma2hwd-bash-interactive-5.2-p21",
+                "/nix/store/4j5c2hybfirv3d1aybl2g4c8c9a9nkhi-bash-interactive-5.2-p21-man"
+              ],
+              "url": "github:flox/nixpkgs/5f64a12a728902226210bf01d25ec6cbb9d9265b"
+            },
+            "eval": {
+              "meta": {
+                "description": "GNU Bourne-Again Shell, the de facto standard shell on Linux (for interactive use)",
+                "outputsToInstall": [
+                  "out",
+                  "man"
+                ],
+                "position": "/nix/store/5acdh8xyry0kdvp6xla2hw7wf3zkphkl-source/pkgs/shells/bash/5.nix:134",
+                "unfree": false
+              },
+              "name": "bash-interactive-5.2-p21",
+              "outputs": {
+                "debug": "/nix/store/2lm0cszzrxqf18p71rsizkhw9xn80d2q-bash-interactive-5.2-p21-debug",
+                "dev": "/nix/store/45k4zjz92iyqwg6kg37m66sbv49nsy7v-bash-interactive-5.2-p21-dev",
+                "doc": "/nix/store/wjizx94ksgs39haljg9pn2yinr5ic9az-bash-interactive-5.2-p21-doc",
+                "info": "/nix/store/1bv944c4z7f3d62j462i184aj5lv9nqn-bash-interactive-5.2-p21-info",
+                "man": "/nix/store/4j5c2hybfirv3d1aybl2g4c8c9a9nkhi-bash-interactive-5.2-p21-man",
+                "out": "/nix/store/l6l2q7c6xvlb44rxbkpajssz6cma2hwd-bash-interactive-5.2-p21"
+              },
+              "pname": null,
+              "system": "x86_64-linux",
+              "version": "5.2"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "x86_64-linux",
+                "stable",
+                "bashInteractive"
+              ],
+              "originalUrl": "nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/l6l2q7c6xvlb44rxbkpajssz6cma2hwd-bash-interactive-5.2-p21",
+                "/nix/store/4j5c2hybfirv3d1aybl2g4c8c9a9nkhi-bash-interactive-5.2-p21-man"
+              ],
+              "url": "flake:nixpkgs-flox/5171477b00b68e3896a4963d16df4386ba9457c3"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1703438236,
+                "revCount": 562833
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "bzip2": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/9gdg43h7zrn651lb1ihv2b2qf59im94b-bzip2-1.0.8-bin",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/8p1rj4maax15sgvli1vwzjypnraqzwlw-bzip2-1.0.8-dev",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/yd5qmwqd0vhwmzqxw3smvm8iskpaax0d-bzip2-1.0.8-man",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/971390xv13vzrhcrqp7ds3rr0hh92jn4-bzip2-1.0.8",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "x86_64-linux",
+                "bzip2"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/9gdg43h7zrn651lb1ihv2b2qf59im94b-bzip2-1.0.8-bin",
+                "/nix/store/yd5qmwqd0vhwmzqxw3smvm8iskpaax0d-bzip2-1.0.8-man"
+              ],
+              "url": "github:flox/nixpkgs/5f64a12a728902226210bf01d25ec6cbb9d9265b"
+            },
+            "eval": {
+              "meta": {
+                "description": "High-quality data compression program",
+                "outputsToInstall": [
+                  "bin",
+                  "man"
+                ],
+                "position": "/nix/store/5acdh8xyry0kdvp6xla2hw7wf3zkphkl-source/pkgs/tools/compression/bzip2/default.nix:67",
+                "unfree": false
+              },
+              "name": "bzip2-1.0.8",
+              "outputs": {
+                "bin": "/nix/store/9gdg43h7zrn651lb1ihv2b2qf59im94b-bzip2-1.0.8-bin",
+                "dev": "/nix/store/8p1rj4maax15sgvli1vwzjypnraqzwlw-bzip2-1.0.8-dev",
+                "man": "/nix/store/yd5qmwqd0vhwmzqxw3smvm8iskpaax0d-bzip2-1.0.8-man",
+                "out": "/nix/store/971390xv13vzrhcrqp7ds3rr0hh92jn4-bzip2-1.0.8"
+              },
+              "pname": "bzip2",
+              "system": "x86_64-linux",
+              "version": "1.0.8"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "x86_64-linux",
+                "stable",
+                "bzip2"
+              ],
+              "originalUrl": "nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/9gdg43h7zrn651lb1ihv2b2qf59im94b-bzip2-1.0.8-bin",
+                "/nix/store/yd5qmwqd0vhwmzqxw3smvm8iskpaax0d-bzip2-1.0.8-man"
+              ],
+              "url": "flake:nixpkgs-flox/5171477b00b68e3896a4963d16df4386ba9457c3"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1703438236,
+                "revCount": 562833
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "coreutils": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/gw8l0idzhp24lk84k14adghvp58vdd87-coreutils-9.4-debug",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/99ln2ih2dwfczyfpvndnbm0sww9v1ql9-coreutils-9.4-info",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/zx8aqgdy735qzk81glfwil6mbi6ddqb1-coreutils-9.4",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "x86_64-linux",
+                "coreutils"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/zx8aqgdy735qzk81glfwil6mbi6ddqb1-coreutils-9.4"
+              ],
+              "url": "github:flox/nixpkgs/5f64a12a728902226210bf01d25ec6cbb9d9265b"
+            },
+            "eval": {
+              "meta": {
+                "description": "The GNU Core Utilities",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/5acdh8xyry0kdvp6xla2hw7wf3zkphkl-source/pkgs/tools/misc/coreutils/default.nix:167",
+                "unfree": false
+              },
+              "name": "coreutils-9.4",
+              "outputs": {
+                "debug": "/nix/store/gw8l0idzhp24lk84k14adghvp58vdd87-coreutils-9.4-debug",
+                "info": "/nix/store/99ln2ih2dwfczyfpvndnbm0sww9v1ql9-coreutils-9.4-info",
+                "out": "/nix/store/zx8aqgdy735qzk81glfwil6mbi6ddqb1-coreutils-9.4"
+              },
+              "pname": "coreutils",
+              "system": "x86_64-linux",
+              "version": "9.4"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "x86_64-linux",
+                "stable",
+                "coreutils"
+              ],
+              "originalUrl": "nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/zx8aqgdy735qzk81glfwil6mbi6ddqb1-coreutils-9.4"
+              ],
+              "url": "flake:nixpkgs-flox/5171477b00b68e3896a4963d16df4386ba9457c3"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1703438236,
+                "revCount": 562833
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "curl": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/0mjq6w6cx1k9907vxm0k5pk7pm1ifib3-curl-8.4.0-bin",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/jc4lgrdfva5lyd0xvlaqkrp84km9kx1q-curl-8.4.0-debug",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/q5ibkxqyvwz193rgyl8scalrwpxjviak-curl-8.4.0-dev",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/lf48c9ksm3jjaj4w64gkwsfgb70bgx0y-curl-8.4.0-devdoc",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/ikaa51mnq3ky9j6l8sxzxgxd7gsxq6fx-curl-8.4.0-man",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/aw9m5pswamgx2sck6isg4pr1ly1i0b1l-curl-8.4.0",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "x86_64-linux",
+                "curl"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/0mjq6w6cx1k9907vxm0k5pk7pm1ifib3-curl-8.4.0-bin",
+                "/nix/store/ikaa51mnq3ky9j6l8sxzxgxd7gsxq6fx-curl-8.4.0-man"
+              ],
+              "url": "github:flox/nixpkgs/5f64a12a728902226210bf01d25ec6cbb9d9265b"
+            },
+            "eval": {
+              "meta": {
+                "description": "A command line tool for transferring files with URL syntax",
+                "outputsToInstall": [
+                  "bin",
+                  "man"
+                ],
+                "position": "/nix/store/5acdh8xyry0kdvp6xla2hw7wf3zkphkl-source/pkgs/tools/networking/curl/default.nix:192",
+                "unfree": false
+              },
+              "name": "curl-8.4.0",
+              "outputs": {
+                "bin": "/nix/store/0mjq6w6cx1k9907vxm0k5pk7pm1ifib3-curl-8.4.0-bin",
+                "debug": "/nix/store/jc4lgrdfva5lyd0xvlaqkrp84km9kx1q-curl-8.4.0-debug",
+                "dev": "/nix/store/q5ibkxqyvwz193rgyl8scalrwpxjviak-curl-8.4.0-dev",
+                "devdoc": "/nix/store/lf48c9ksm3jjaj4w64gkwsfgb70bgx0y-curl-8.4.0-devdoc",
+                "man": "/nix/store/ikaa51mnq3ky9j6l8sxzxgxd7gsxq6fx-curl-8.4.0-man",
+                "out": "/nix/store/aw9m5pswamgx2sck6isg4pr1ly1i0b1l-curl-8.4.0"
+              },
+              "pname": "curl",
+              "system": "x86_64-linux",
+              "version": "8.4.0"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "x86_64-linux",
+                "stable",
+                "curl"
+              ],
+              "originalUrl": "nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/0mjq6w6cx1k9907vxm0k5pk7pm1ifib3-curl-8.4.0-bin",
+                "/nix/store/ikaa51mnq3ky9j6l8sxzxgxd7gsxq6fx-curl-8.4.0-man"
+              ],
+              "url": "flake:nixpkgs-flox/5171477b00b68e3896a4963d16df4386ba9457c3"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1703438236,
+                "revCount": 562833
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "diffutils": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/1zzkzyd2m7896szzs698yxk5as3hyrbp-diffutils-3.10-info",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/f3g84l92p0njh0gyk1z7cp2k4qnh91ha-diffutils-3.10",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "x86_64-linux",
+                "diffutils"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/f3g84l92p0njh0gyk1z7cp2k4qnh91ha-diffutils-3.10"
+              ],
+              "url": "github:flox/nixpkgs/5f64a12a728902226210bf01d25ec6cbb9d9265b"
+            },
+            "eval": {
+              "meta": {
+                "description": "Commands for showing the differences between files (diff, cmp, etc.)",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/5acdh8xyry0kdvp6xla2hw7wf3zkphkl-source/pkgs/tools/text/diffutils/default.nix:40",
+                "unfree": false
+              },
+              "name": "diffutils-3.10",
+              "outputs": {
+                "info": "/nix/store/1zzkzyd2m7896szzs698yxk5as3hyrbp-diffutils-3.10-info",
+                "out": "/nix/store/f3g84l92p0njh0gyk1z7cp2k4qnh91ha-diffutils-3.10"
+              },
+              "pname": "diffutils",
+              "system": "x86_64-linux",
+              "version": "3.10"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "x86_64-linux",
+                "stable",
+                "diffutils"
+              ],
+              "originalUrl": "nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/f3g84l92p0njh0gyk1z7cp2k4qnh91ha-diffutils-3.10"
+              ],
+              "url": "flake:nixpkgs-flox/5171477b00b68e3896a4963d16df4386ba9457c3"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1703438236,
+                "revCount": 562833
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "file": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/j43l2r5daza6rhyvsir0w9hghhrh9cjc-file-5.45-dev",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/kvl2hrl22pl3is3g5l5565y2lzmdiicj-file-5.45-man",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/nnqaf42psbbbwy366axaakvisa983bka-file-5.45",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "x86_64-linux",
+                "file"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/nnqaf42psbbbwy366axaakvisa983bka-file-5.45",
+                "/nix/store/kvl2hrl22pl3is3g5l5565y2lzmdiicj-file-5.45-man"
+              ],
+              "url": "github:flox/nixpkgs/5f64a12a728902226210bf01d25ec6cbb9d9265b"
+            },
+            "eval": {
+              "meta": {
+                "description": "A program that shows the type of files",
+                "outputsToInstall": [
+                  "out",
+                  "man"
+                ],
+                "position": "/nix/store/5acdh8xyry0kdvp6xla2hw7wf3zkphkl-source/pkgs/tools/misc/file/default.nix:46",
+                "unfree": false
+              },
+              "name": "file-5.45",
+              "outputs": {
+                "dev": "/nix/store/j43l2r5daza6rhyvsir0w9hghhrh9cjc-file-5.45-dev",
+                "man": "/nix/store/kvl2hrl22pl3is3g5l5565y2lzmdiicj-file-5.45-man",
+                "out": "/nix/store/nnqaf42psbbbwy366axaakvisa983bka-file-5.45"
+              },
+              "pname": "file",
+              "system": "x86_64-linux",
+              "version": "5.45"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "x86_64-linux",
+                "stable",
+                "file"
+              ],
+              "originalUrl": "nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/nnqaf42psbbbwy366axaakvisa983bka-file-5.45",
+                "/nix/store/kvl2hrl22pl3is3g5l5565y2lzmdiicj-file-5.45-man"
+              ],
+              "url": "flake:nixpkgs-flox/5171477b00b68e3896a4963d16df4386ba9457c3"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1703438236,
+                "revCount": 562833
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "findutils": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/xg2z6k8zjm2r4xyk8mzycpz09nxv2klc-findutils-4.9.0-info",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/ibq8xam1nmi18kbx75rl5qzn6gbksqbx-findutils-4.9.0-locate",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/sq0w0jchkjqbxl47h52kfwa33qp1adfh-findutils-4.9.0",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "x86_64-linux",
+                "findutils"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/sq0w0jchkjqbxl47h52kfwa33qp1adfh-findutils-4.9.0"
+              ],
+              "url": "github:flox/nixpkgs/5f64a12a728902226210bf01d25ec6cbb9d9265b"
+            },
+            "eval": {
+              "meta": {
+                "description": "GNU Find Utilities, the basic directory searching utilities of the GNU operating system",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/5acdh8xyry0kdvp6xla2hw7wf3zkphkl-source/pkgs/tools/misc/findutils/default.nix:70",
+                "unfree": false
+              },
+              "name": "findutils-4.9.0",
+              "outputs": {
+                "info": "/nix/store/xg2z6k8zjm2r4xyk8mzycpz09nxv2klc-findutils-4.9.0-info",
+                "locate": "/nix/store/ibq8xam1nmi18kbx75rl5qzn6gbksqbx-findutils-4.9.0-locate",
+                "out": "/nix/store/sq0w0jchkjqbxl47h52kfwa33qp1adfh-findutils-4.9.0"
+              },
+              "pname": "findutils",
+              "system": "x86_64-linux",
+              "version": "4.9.0"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "x86_64-linux",
+                "stable",
+                "findutils"
+              ],
+              "originalUrl": "nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/sq0w0jchkjqbxl47h52kfwa33qp1adfh-findutils-4.9.0"
+              ],
+              "url": "flake:nixpkgs-flox/5171477b00b68e3896a4963d16df4386ba9457c3"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1703438236,
+                "revCount": 562833
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "gawk": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/si5l1bnanw8dkn3jlz3da8kdbhm113ay-gawk-5.2.2-info",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/8wmpv9vpwqc1pwrsw5y3dkxinal4q0b1-gawk-5.2.2-man",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/1713hchhyzawkxfhk9srxklv03bqj55y-gawk-5.2.2",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "x86_64-linux",
+                "gawk"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/1713hchhyzawkxfhk9srxklv03bqj55y-gawk-5.2.2",
+                "/nix/store/8wmpv9vpwqc1pwrsw5y3dkxinal4q0b1-gawk-5.2.2-man"
+              ],
+              "url": "github:flox/nixpkgs/5f64a12a728902226210bf01d25ec6cbb9d9265b"
+            },
+            "eval": {
+              "meta": {
+                "description": "GNU implementation of the Awk programming language",
+                "outputsToInstall": [
+                  "out",
+                  "man"
+                ],
+                "position": "/nix/store/5acdh8xyry0kdvp6xla2hw7wf3zkphkl-source/pkgs/tools/text/gawk/default.nix:68",
+                "unfree": false
+              },
+              "name": "gawk-5.2.2",
+              "outputs": {
+                "info": "/nix/store/si5l1bnanw8dkn3jlz3da8kdbhm113ay-gawk-5.2.2-info",
+                "man": "/nix/store/8wmpv9vpwqc1pwrsw5y3dkxinal4q0b1-gawk-5.2.2-man",
+                "out": "/nix/store/1713hchhyzawkxfhk9srxklv03bqj55y-gawk-5.2.2"
+              },
+              "pname": "gawk",
+              "system": "x86_64-linux",
+              "version": "5.2.2"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "x86_64-linux",
+                "stable",
+                "gawk"
+              ],
+              "originalUrl": "nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/1713hchhyzawkxfhk9srxklv03bqj55y-gawk-5.2.2",
+                "/nix/store/8wmpv9vpwqc1pwrsw5y3dkxinal4q0b1-gawk-5.2.2-man"
+              ],
+              "url": "flake:nixpkgs-flox/5171477b00b68e3896a4963d16df4386ba9457c3"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1703438236,
+                "revCount": 562833
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "gitFull": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/67v77qc586xms76q324xmh5ybz5j5kll-git-with-svn-2.42.0-debug",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/qix3gh7njwfhc3mz61kmaaj6ajf3dmcv-git-with-svn-2.42.0-doc",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/phybp5n2mzrfm7z3jpxr587p457qhhr6-git-with-svn-2.42.0",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "x86_64-linux",
+                "gitFull"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/phybp5n2mzrfm7z3jpxr587p457qhhr6-git-with-svn-2.42.0"
+              ],
+              "url": "github:flox/nixpkgs/5f64a12a728902226210bf01d25ec6cbb9d9265b"
+            },
+            "eval": {
+              "meta": {
+                "description": "Distributed version control system",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/5acdh8xyry0kdvp6xla2hw7wf3zkphkl-source/pkgs/applications/version-management/git/default.nix:389",
+                "unfree": false
+              },
+              "name": "git-with-svn-2.42.0",
+              "outputs": {
+                "debug": "/nix/store/67v77qc586xms76q324xmh5ybz5j5kll-git-with-svn-2.42.0-debug",
+                "doc": "/nix/store/qix3gh7njwfhc3mz61kmaaj6ajf3dmcv-git-with-svn-2.42.0-doc",
+                "out": "/nix/store/phybp5n2mzrfm7z3jpxr587p457qhhr6-git-with-svn-2.42.0"
+              },
+              "pname": "git-with-svn",
+              "system": "x86_64-linux",
+              "version": "2.42.0"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "x86_64-linux",
+                "stable",
+                "gitFull"
+              ],
+              "originalUrl": "nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/phybp5n2mzrfm7z3jpxr587p457qhhr6-git-with-svn-2.42.0"
+              ],
+              "url": "flake:nixpkgs-flox/5171477b00b68e3896a4963d16df4386ba9457c3"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1703438236,
+                "revCount": 562833
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "gnugrep": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/74jgj1g3sab05jyp7hyppp777cpzjgs3-gnugrep-3.11-info",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/by6918gg7srjyixqk8kbcdlz82d5pcwx-gnugrep-3.11",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "x86_64-linux",
+                "gnugrep"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/by6918gg7srjyixqk8kbcdlz82d5pcwx-gnugrep-3.11"
+              ],
+              "url": "github:flox/nixpkgs/5f64a12a728902226210bf01d25ec6cbb9d9265b"
+            },
+            "eval": {
+              "meta": {
+                "description": "GNU implementation of the Unix grep command",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/5acdh8xyry0kdvp6xla2hw7wf3zkphkl-source/pkgs/tools/text/gnugrep/default.nix:58",
+                "unfree": false
+              },
+              "name": "gnugrep-3.11",
+              "outputs": {
+                "info": "/nix/store/74jgj1g3sab05jyp7hyppp777cpzjgs3-gnugrep-3.11-info",
+                "out": "/nix/store/by6918gg7srjyixqk8kbcdlz82d5pcwx-gnugrep-3.11"
+              },
+              "pname": "gnugrep",
+              "system": "x86_64-linux",
+              "version": "3.11"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "x86_64-linux",
+                "stable",
+                "gnugrep"
+              ],
+              "originalUrl": "nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/by6918gg7srjyixqk8kbcdlz82d5pcwx-gnugrep-3.11"
+              ],
+              "url": "flake:nixpkgs-flox/5171477b00b68e3896a4963d16df4386ba9457c3"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1703438236,
+                "revCount": 562833
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "gnum4": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/nhga2xfcr9s32ryp91nd1rgz565gysxm-gnum4-1.4.19",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "x86_64-linux",
+                "gnum4"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/nhga2xfcr9s32ryp91nd1rgz565gysxm-gnum4-1.4.19"
+              ],
+              "url": "github:flox/nixpkgs/5f64a12a728902226210bf01d25ec6cbb9d9265b"
+            },
+            "eval": {
+              "meta": {
+                "description": "GNU M4, a macro processor",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/5acdh8xyry0kdvp6xla2hw7wf3zkphkl-source/pkgs/development/tools/misc/gnum4/default.nix:33",
+                "unfree": false
+              },
+              "name": "gnum4-1.4.19",
+              "outputs": {
+                "out": "/nix/store/nhga2xfcr9s32ryp91nd1rgz565gysxm-gnum4-1.4.19"
+              },
+              "pname": "gnum4",
+              "system": "x86_64-linux",
+              "version": "1.4.19"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "x86_64-linux",
+                "stable",
+                "gnum4"
+              ],
+              "originalUrl": "nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/nhga2xfcr9s32ryp91nd1rgz565gysxm-gnum4-1.4.19"
+              ],
+              "url": "flake:nixpkgs-flox/5171477b00b68e3896a4963d16df4386ba9457c3"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1703438236,
+                "revCount": 562833
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "gnumake": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/h14r6mb8cf8dfqc5kd3m2yicjslap29n-gnumake-4.4.1-debug",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/wv14ll0zq57b6nj3bqghapp48jdikcrz-gnumake-4.4.1-info",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/q7pddhwr38k536wrmxm09w2fcw59hiy3-gnumake-4.4.1-man",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/5v3k090nl55rxz2gkn9y4wchna3vjjxw-gnumake-4.4.1",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "x86_64-linux",
+                "gnumake"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/5v3k090nl55rxz2gkn9y4wchna3vjjxw-gnumake-4.4.1",
+                "/nix/store/q7pddhwr38k536wrmxm09w2fcw59hiy3-gnumake-4.4.1-man"
+              ],
+              "url": "github:flox/nixpkgs/5f64a12a728902226210bf01d25ec6cbb9d9265b"
+            },
+            "eval": {
+              "meta": {
+                "description": "A tool to control the generation of non-source files from sources",
+                "outputsToInstall": [
+                  "out",
+                  "man"
+                ],
+                "position": "/nix/store/5acdh8xyry0kdvp6xla2hw7wf3zkphkl-source/pkgs/development/tools/build-managers/gnumake/default.nix:57",
+                "unfree": false
+              },
+              "name": "gnumake-4.4.1",
+              "outputs": {
+                "debug": "/nix/store/h14r6mb8cf8dfqc5kd3m2yicjslap29n-gnumake-4.4.1-debug",
+                "info": "/nix/store/wv14ll0zq57b6nj3bqghapp48jdikcrz-gnumake-4.4.1-info",
+                "man": "/nix/store/q7pddhwr38k536wrmxm09w2fcw59hiy3-gnumake-4.4.1-man",
+                "out": "/nix/store/5v3k090nl55rxz2gkn9y4wchna3vjjxw-gnumake-4.4.1"
+              },
+              "pname": "gnumake",
+              "system": "x86_64-linux",
+              "version": "4.4.1"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "x86_64-linux",
+                "stable",
+                "gnumake"
+              ],
+              "originalUrl": "nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/5v3k090nl55rxz2gkn9y4wchna3vjjxw-gnumake-4.4.1",
+                "/nix/store/q7pddhwr38k536wrmxm09w2fcw59hiy3-gnumake-4.4.1-man"
+              ],
+              "url": "flake:nixpkgs-flox/5171477b00b68e3896a4963d16df4386ba9457c3"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1703438236,
+                "revCount": 562833
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "gnused": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/in09xpx0rxbhcp2qlrlpnsbaf3m3s0dd-gnused-4.9-info",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/7fqp73ncnbwr5bxxszqicf6r33d9yhkw-gnused-4.9",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "x86_64-linux",
+                "gnused"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/7fqp73ncnbwr5bxxszqicf6r33d9yhkw-gnused-4.9"
+              ],
+              "url": "github:flox/nixpkgs/5f64a12a728902226210bf01d25ec6cbb9d9265b"
+            },
+            "eval": {
+              "meta": {
+                "description": "GNU sed, a batch stream editor",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/5acdh8xyry0kdvp6xla2hw7wf3zkphkl-source/pkgs/tools/text/gnused/default.nix:22",
+                "unfree": false
+              },
+              "name": "gnused-4.9",
+              "outputs": {
+                "info": "/nix/store/in09xpx0rxbhcp2qlrlpnsbaf3m3s0dd-gnused-4.9-info",
+                "out": "/nix/store/7fqp73ncnbwr5bxxszqicf6r33d9yhkw-gnused-4.9"
+              },
+              "pname": "gnused",
+              "system": "x86_64-linux",
+              "version": "4.9"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "x86_64-linux",
+                "stable",
+                "gnused"
+              ],
+              "originalUrl": "nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/7fqp73ncnbwr5bxxszqicf6r33d9yhkw-gnused-4.9"
+              ],
+              "url": "flake:nixpkgs-flox/5171477b00b68e3896a4963d16df4386ba9457c3"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1703438236,
+                "revCount": 562833
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "gnutar": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/6aibhapy89p2c334kz9scnbbzdbfscj2-gnutar-1.35-info",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/1y7cqy8y76gsx037mhs3cvb33srj4c7g-gnutar-1.35",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "x86_64-linux",
+                "gnutar"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/1y7cqy8y76gsx037mhs3cvb33srj4c7g-gnutar-1.35"
+              ],
+              "url": "github:flox/nixpkgs/5f64a12a728902226210bf01d25ec6cbb9d9265b"
+            },
+            "eval": {
+              "meta": {
+                "description": "GNU implementation of the `tar' archiver",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/5acdh8xyry0kdvp6xla2hw7wf3zkphkl-source/pkgs/tools/archivers/gnutar/default.nix:53",
+                "unfree": false
+              },
+              "name": "gnutar-1.35",
+              "outputs": {
+                "info": "/nix/store/6aibhapy89p2c334kz9scnbbzdbfscj2-gnutar-1.35-info",
+                "out": "/nix/store/1y7cqy8y76gsx037mhs3cvb33srj4c7g-gnutar-1.35"
+              },
+              "pname": "gnutar",
+              "system": "x86_64-linux",
+              "version": "1.35"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "x86_64-linux",
+                "stable",
+                "gnutar"
+              ],
+              "originalUrl": "nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/1y7cqy8y76gsx037mhs3cvb33srj4c7g-gnutar-1.35"
+              ],
+              "url": "flake:nixpkgs-flox/5171477b00b68e3896a4963d16df4386ba9457c3"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1703438236,
+                "revCount": 562833
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "gzip": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/09288v55ir7pcp6qaksrkxvbmr3884w1-gzip-1.13-info",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/d90naimbxrvyiv8lpnabv3s9997kvm1c-gzip-1.13-man",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/21drzcpzpi485f9m6ihspg4kayly5425-gzip-1.13",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "x86_64-linux",
+                "gzip"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/21drzcpzpi485f9m6ihspg4kayly5425-gzip-1.13",
+                "/nix/store/d90naimbxrvyiv8lpnabv3s9997kvm1c-gzip-1.13-man"
+              ],
+              "url": "github:flox/nixpkgs/5f64a12a728902226210bf01d25ec6cbb9d9265b"
+            },
+            "eval": {
+              "meta": {
+                "description": "GNU zip compression program",
+                "outputsToInstall": [
+                  "out",
+                  "man"
+                ],
+                "position": "/nix/store/5acdh8xyry0kdvp6xla2hw7wf3zkphkl-source/pkgs/tools/compression/gzip/default.nix:54",
+                "unfree": false
+              },
+              "name": "gzip-1.13",
+              "outputs": {
+                "info": "/nix/store/09288v55ir7pcp6qaksrkxvbmr3884w1-gzip-1.13-info",
+                "man": "/nix/store/d90naimbxrvyiv8lpnabv3s9997kvm1c-gzip-1.13-man",
+                "out": "/nix/store/21drzcpzpi485f9m6ihspg4kayly5425-gzip-1.13"
+              },
+              "pname": "gzip",
+              "system": "x86_64-linux",
+              "version": "1.13"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "x86_64-linux",
+                "stable",
+                "gzip"
+              ],
+              "originalUrl": "nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/21drzcpzpi485f9m6ihspg4kayly5425-gzip-1.13",
+                "/nix/store/d90naimbxrvyiv8lpnabv3s9997kvm1c-gzip-1.13-man"
+              ],
+              "url": "flake:nixpkgs-flox/5171477b00b68e3896a4963d16df4386ba9457c3"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1703438236,
+                "revCount": 562833
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "hello": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/zhl06z4lrfrkw5rp0hnjjfrgsclzvxpm-hello-2.12.1",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "x86_64-linux",
+                "hello"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/zhl06z4lrfrkw5rp0hnjjfrgsclzvxpm-hello-2.12.1"
+              ],
+              "url": "github:flox/nixpkgs/5f64a12a728902226210bf01d25ec6cbb9d9265b"
+            },
+            "eval": {
+              "meta": {
+                "description": "A program that produces a familiar, friendly greeting",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/5acdh8xyry0kdvp6xla2hw7wf3zkphkl-source/pkgs/by-name/he/hello/package.nix:34",
+                "unfree": false
+              },
+              "name": "hello-2.12.1",
+              "outputs": {
+                "out": "/nix/store/zhl06z4lrfrkw5rp0hnjjfrgsclzvxpm-hello-2.12.1"
+              },
+              "pname": "hello",
+              "system": "x86_64-linux",
+              "version": "2.12.1"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "x86_64-linux",
+                "stable",
+                "hello"
+              ],
+              "originalUrl": "nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/zhl06z4lrfrkw5rp0hnjjfrgsclzvxpm-hello-2.12.1"
+              ],
+              "url": "flake:nixpkgs-flox/5171477b00b68e3896a4963d16df4386ba9457c3"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1703438236,
+                "revCount": 562833
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "jq": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/xdmynnfk2f5c8z39wrh7h216lhh91bjq-jq-1.7-bin",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/l2qx6c6w5aq6pmhjk63hcgsv5xjd08l2-jq-1.7-dev",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/dz5hf9dx2660d1cqdz5a5kg3iihzkfky-jq-1.7-doc",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/072kqjmbhfrmziz5hbs499h6czw7w4pj-jq-1.7-lib",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/5ri38niq6c90g33i8dw8wd5h16ab2l9w-jq-1.7-man",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/4r1k85y1cp857sy6ndak6327gajqrg45-jq-1.7",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "x86_64-linux",
+                "jq"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/xdmynnfk2f5c8z39wrh7h216lhh91bjq-jq-1.7-bin",
+                "/nix/store/5ri38niq6c90g33i8dw8wd5h16ab2l9w-jq-1.7-man"
+              ],
+              "url": "github:flox/nixpkgs/5f64a12a728902226210bf01d25ec6cbb9d9265b"
+            },
+            "eval": {
+              "meta": {
+                "description": "A lightweight and flexible command-line JSON processor",
+                "outputsToInstall": [
+                  "bin",
+                  "man"
+                ],
+                "position": "/nix/store/5acdh8xyry0kdvp6xla2hw7wf3zkphkl-source/pkgs/development/tools/jq/default.nix:76",
+                "unfree": false
+              },
+              "name": "jq-1.7",
+              "outputs": {
+                "bin": "/nix/store/xdmynnfk2f5c8z39wrh7h216lhh91bjq-jq-1.7-bin",
+                "dev": "/nix/store/l2qx6c6w5aq6pmhjk63hcgsv5xjd08l2-jq-1.7-dev",
+                "doc": "/nix/store/dz5hf9dx2660d1cqdz5a5kg3iihzkfky-jq-1.7-doc",
+                "lib": "/nix/store/072kqjmbhfrmziz5hbs499h6czw7w4pj-jq-1.7-lib",
+                "man": "/nix/store/5ri38niq6c90g33i8dw8wd5h16ab2l9w-jq-1.7-man",
+                "out": "/nix/store/4r1k85y1cp857sy6ndak6327gajqrg45-jq-1.7"
+              },
+              "pname": "jq",
+              "system": "x86_64-linux",
+              "version": "1.7"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "x86_64-linux",
+                "stable",
+                "jq"
+              ],
+              "originalUrl": "nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/xdmynnfk2f5c8z39wrh7h216lhh91bjq-jq-1.7-bin",
+                "/nix/store/5ri38niq6c90g33i8dw8wd5h16ab2l9w-jq-1.7-man"
+              ],
+              "url": "flake:nixpkgs-flox/5171477b00b68e3896a4963d16df4386ba9457c3"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1703438236,
+                "revCount": 562833
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "libtool": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/93sk5zhcvyylzi157p2v3ssfqf7zqx26-libtool-2.4.7-lib",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/w1qkghfi3ziz3ryqhrsrypsfckvvn735-libtool-2.4.7",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "x86_64-linux",
+                "libtool"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/w1qkghfi3ziz3ryqhrsrypsfckvvn735-libtool-2.4.7"
+              ],
+              "url": "github:flox/nixpkgs/5f64a12a728902226210bf01d25ec6cbb9d9265b"
+            },
+            "eval": {
+              "meta": {
+                "description": "GNU Libtool, a generic library support script",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/5acdh8xyry0kdvp6xla2hw7wf3zkphkl-source/pkgs/development/tools/misc/libtool/libtool2.nix:57",
+                "unfree": false
+              },
+              "name": "libtool-2.4.7",
+              "outputs": {
+                "lib": "/nix/store/93sk5zhcvyylzi157p2v3ssfqf7zqx26-libtool-2.4.7-lib",
+                "out": "/nix/store/w1qkghfi3ziz3ryqhrsrypsfckvvn735-libtool-2.4.7"
+              },
+              "pname": "libtool",
+              "system": "x86_64-linux",
+              "version": "2.4.7"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "x86_64-linux",
+                "stable",
+                "libtool"
+              ],
+              "originalUrl": "nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/w1qkghfi3ziz3ryqhrsrypsfckvvn735-libtool-2.4.7"
+              ],
+              "url": "flake:nixpkgs-flox/5171477b00b68e3896a4963d16df4386ba9457c3"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1703438236,
+                "revCount": 562833
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "nodejs-slim": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/f8q5s01cc16763x82xqmnfb29ip4n0wx-nodejs-slim-20.10.0-libv8",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/dp9wv3bsiz89fmysx2inq9rbn4jidgbp-nodejs-slim-20.10.0",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "x86_64-linux",
+                "nodejs-slim"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/dp9wv3bsiz89fmysx2inq9rbn4jidgbp-nodejs-slim-20.10.0"
+              ],
+              "url": "github:flox/nixpkgs/5f64a12a728902226210bf01d25ec6cbb9d9265b"
+            },
+            "eval": {
+              "meta": {
+                "description": "Event-driven I/O framework for the V8 JavaScript engine",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/5acdh8xyry0kdvp6xla2hw7wf3zkphkl-source/pkgs/development/web/nodejs/v20.nix:11",
+                "unfree": false
+              },
+              "name": "nodejs-slim-20.10.0",
+              "outputs": {
+                "libv8": "/nix/store/f8q5s01cc16763x82xqmnfb29ip4n0wx-nodejs-slim-20.10.0-libv8",
+                "out": "/nix/store/dp9wv3bsiz89fmysx2inq9rbn4jidgbp-nodejs-slim-20.10.0"
+              },
+              "pname": "nodejs-slim",
+              "system": "x86_64-linux",
+              "version": "20.10.0"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "x86_64-linux",
+                "stable",
+                "nodejs-slim"
+              ],
+              "originalUrl": "nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/dp9wv3bsiz89fmysx2inq9rbn4jidgbp-nodejs-slim-20.10.0"
+              ],
+              "url": "flake:nixpkgs-flox/5171477b00b68e3896a4963d16df4386ba9457c3"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1703438236,
+                "revCount": 562833
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "patch": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/l6s9gwsallxxgz3qy7xk6410y842m6dn-patch-2.7.6",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "x86_64-linux",
+                "patch"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/l6s9gwsallxxgz3qy7xk6410y842m6dn-patch-2.7.6"
+              ],
+              "url": "github:flox/nixpkgs/5f64a12a728902226210bf01d25ec6cbb9d9265b"
+            },
+            "eval": {
+              "meta": {
+                "description": "GNU Patch, a program to apply differences to files",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/5acdh8xyry0kdvp6xla2hw7wf3zkphkl-source/pkgs/tools/text/gnupatch/default.nix:44",
+                "unfree": false
+              },
+              "name": "patch-2.7.6",
+              "outputs": {
+                "out": "/nix/store/l6s9gwsallxxgz3qy7xk6410y842m6dn-patch-2.7.6"
+              },
+              "pname": "patch",
+              "system": "x86_64-linux",
+              "version": "2.7.6"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "x86_64-linux",
+                "stable",
+                "patch"
+              ],
+              "originalUrl": "nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/l6s9gwsallxxgz3qy7xk6410y842m6dn-patch-2.7.6"
+              ],
+              "url": "flake:nixpkgs-flox/5171477b00b68e3896a4963d16df4386ba9457c3"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1703438236,
+                "revCount": 562833
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "pkg-config": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/z5hbgfd5k8dgjg1611vxy6jll8ydr0rl-pkg-config-wrapper-0.29.2-doc",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/ng0x0rv5rjynnh702yjclqkj3pwmnc4m-pkg-config-wrapper-0.29.2-man",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/1nvm1a9a9mlwyy7d0hapkzchxgjgpw19-pkg-config-wrapper-0.29.2",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "x86_64-linux",
+                "pkg-config"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/1nvm1a9a9mlwyy7d0hapkzchxgjgpw19-pkg-config-wrapper-0.29.2",
+                "/nix/store/ng0x0rv5rjynnh702yjclqkj3pwmnc4m-pkg-config-wrapper-0.29.2-man"
+              ],
+              "url": "github:flox/nixpkgs/5f64a12a728902226210bf01d25ec6cbb9d9265b"
+            },
+            "eval": {
+              "meta": {
+                "description": "A tool that allows packages to find out information about other packages (wrapper script)",
+                "outputsToInstall": [
+                  "out",
+                  "man"
+                ],
+                "position": "/nix/store/5acdh8xyry0kdvp6xla2hw7wf3zkphkl-source/pkgs/build-support/pkg-config-wrapper/default.nix:124",
+                "unfree": false
+              },
+              "name": "pkg-config-wrapper-0.29.2",
+              "outputs": {
+                "doc": "/nix/store/z5hbgfd5k8dgjg1611vxy6jll8ydr0rl-pkg-config-wrapper-0.29.2-doc",
+                "man": "/nix/store/ng0x0rv5rjynnh702yjclqkj3pwmnc4m-pkg-config-wrapper-0.29.2-man",
+                "out": "/nix/store/1nvm1a9a9mlwyy7d0hapkzchxgjgpw19-pkg-config-wrapper-0.29.2"
+              },
+              "pname": "pkg-config-wrapper",
+              "system": "x86_64-linux",
+              "version": "0.29.2"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "x86_64-linux",
+                "stable",
+                "pkg-config"
+              ],
+              "originalUrl": "nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/1nvm1a9a9mlwyy7d0hapkzchxgjgpw19-pkg-config-wrapper-0.29.2",
+                "/nix/store/ng0x0rv5rjynnh702yjclqkj3pwmnc4m-pkg-config-wrapper-0.29.2-man"
+              ],
+              "url": "flake:nixpkgs-flox/5171477b00b68e3896a4963d16df4386ba9457c3"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1703438236,
+                "revCount": 562833
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "python3": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/qakzwylm7ia6kpfdy5fl7dkhwjm82x30-python3-3.11.6-debug",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/5k91mg4qjylxbfvrv748smfh51ppjq0g-python3-3.11.6",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "x86_64-linux",
+                "python3"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/5k91mg4qjylxbfvrv748smfh51ppjq0g-python3-3.11.6"
+              ],
+              "url": "github:flox/nixpkgs/5f64a12a728902226210bf01d25ec6cbb9d9265b"
+            },
+            "eval": {
+              "meta": {
+                "description": "A high-level dynamically-typed programming language",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/5acdh8xyry0kdvp6xla2hw7wf3zkphkl-source/pkgs/development/interpreters/python/cpython/default.nix:604",
+                "unfree": false
+              },
+              "name": "python3-3.11.6",
+              "outputs": {
+                "debug": "/nix/store/qakzwylm7ia6kpfdy5fl7dkhwjm82x30-python3-3.11.6-debug",
+                "out": "/nix/store/5k91mg4qjylxbfvrv748smfh51ppjq0g-python3-3.11.6"
+              },
+              "pname": "python3",
+              "system": "x86_64-linux",
+              "version": "3.11.6"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "x86_64-linux",
+                "stable",
+                "python3"
+              ],
+              "originalUrl": "nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/5k91mg4qjylxbfvrv748smfh51ppjq0g-python3-3.11.6"
+              ],
+              "url": "flake:nixpkgs-flox/5171477b00b68e3896a4963d16df4386ba9457c3"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1703438236,
+                "revCount": 562833
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "wget": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/xflxgibbr4kabs1h4mcpvv03j1i36n97-wget-1.21.4",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "x86_64-linux",
+                "wget"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/xflxgibbr4kabs1h4mcpvv03j1i36n97-wget-1.21.4"
+              ],
+              "url": "github:flox/nixpkgs/5f64a12a728902226210bf01d25ec6cbb9d9265b"
+            },
+            "eval": {
+              "meta": {
+                "description": "Tool for retrieving files using HTTP, HTTPS, and FTP",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/5acdh8xyry0kdvp6xla2hw7wf3zkphkl-source/pkgs/tools/networking/wget/default.nix:49",
+                "unfree": false
+              },
+              "name": "wget-1.21.4",
+              "outputs": {
+                "out": "/nix/store/xflxgibbr4kabs1h4mcpvv03j1i36n97-wget-1.21.4"
+              },
+              "pname": "wget",
+              "system": "x86_64-linux",
+              "version": "1.21.4"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "x86_64-linux",
+                "stable",
+                "wget"
+              ],
+              "originalUrl": "nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/xflxgibbr4kabs1h4mcpvv03j1i36n97-wget-1.21.4"
+              ],
+              "url": "flake:nixpkgs-flox/5171477b00b68e3896a4963d16df4386ba9457c3"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1703438236,
+                "revCount": 562833
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "xz": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/pp7yamsghaprdxq94vr2iqx1hd5xn2qf-xz-5.4.5-bin",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/v4kc00z3p33vicg586ig697lqlqq04r6-xz-5.4.5-dev",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/fq3sw942drws3p319054cr15rz4z41fb-xz-5.4.5-doc",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/1hl5ff3gp2m50cvnm9p350dw009vpj99-xz-5.4.5-man",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/zd47il8k6kz3b9jzlafax0il9w0mrmm3-xz-5.4.5",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "x86_64-linux",
+                "xz"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/pp7yamsghaprdxq94vr2iqx1hd5xn2qf-xz-5.4.5-bin",
+                "/nix/store/1hl5ff3gp2m50cvnm9p350dw009vpj99-xz-5.4.5-man"
+              ],
+              "url": "github:flox/nixpkgs/5f64a12a728902226210bf01d25ec6cbb9d9265b"
+            },
+            "eval": {
+              "meta": {
+                "description": "A general-purpose data compression software, successor of LZMA",
+                "outputsToInstall": [
+                  "bin",
+                  "man"
+                ],
+                "position": "/nix/store/5acdh8xyry0kdvp6xla2hw7wf3zkphkl-source/pkgs/tools/compression/xz/default.nix:56",
+                "unfree": false
+              },
+              "name": "xz-5.4.5",
+              "outputs": {
+                "bin": "/nix/store/pp7yamsghaprdxq94vr2iqx1hd5xn2qf-xz-5.4.5-bin",
+                "dev": "/nix/store/v4kc00z3p33vicg586ig697lqlqq04r6-xz-5.4.5-dev",
+                "doc": "/nix/store/fq3sw942drws3p319054cr15rz4z41fb-xz-5.4.5-doc",
+                "man": "/nix/store/1hl5ff3gp2m50cvnm9p350dw009vpj99-xz-5.4.5-man",
+                "out": "/nix/store/zd47il8k6kz3b9jzlafax0il9w0mrmm3-xz-5.4.5"
+              },
+              "pname": "xz",
+              "system": "x86_64-linux",
+              "version": "5.4.5"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "x86_64-linux",
+                "stable",
+                "xz"
+              ],
+              "originalUrl": "nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/pp7yamsghaprdxq94vr2iqx1hd5xn2qf-xz-5.4.5-bin",
+                "/nix/store/1hl5ff3gp2m50cvnm9p350dw009vpj99-xz-5.4.5-man"
+              ],
+              "url": "flake:nixpkgs-flox/5171477b00b68e3896a4963d16df4386ba9457c3"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1703438236,
+                "revCount": 562833
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        }
+      }
+    }
+  }
+}
